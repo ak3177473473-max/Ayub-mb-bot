@@ -1,0 +1,24 @@
+{
+  "name": "ayub-khan-md-bot",
+  "version": "3.0.0",
+  "description": "Ayub Khan WhatsApp Bot - 300+ Commands | Channel: https://whatsapp.com/channel/0029Vb85iYK9sBIASUwdwn0f",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Ayub Khan (923177473473)",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "@hapi/boom": "^10.0.1",
+    "pino": "^8.14.1",
+    "qrcode-terminal": "^0.12.0",
+    "chalk": "^4.1.2",
+    "axios": "^1.4.0",
+    "node-cache": "^5.1.2",
+    "moment-timezone": "^0.5.43",
+    "express": "^4.18.2"
+  }
+}
